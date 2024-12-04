@@ -56,10 +56,13 @@ In addition, we generate multi-class labels for each patch by running the follow
 python data/PASTIS24/seg2cls_label.py --pickle_path <...>/PASTIS/pickle24x24 
 ```
 
+</details>
+
 <details>
 <summary>
 Germany dataset
 </summary>
+
 
 The original Germany dataset is accessible [here](https://github.com/MarcCoru/MTLCC), we can download the dataset (40GB) via:
 
@@ -69,15 +72,19 @@ wget https://zenodo.org/record/5712933/files/data_IJGI18.zip
 
 The size of each sample in Germany dataset is 24x24, so we only need to generate the multi-class labels with the above script without splitting. 
 
-
+</details>
 
 ## Usage
 
-**Step 1: Train Exact_cls classification network.** (to be released)
+**Step 1: Train Exact_cls classification network.** 
+
+(to be released)
 
 
 
-**Step 2: Generate CB-CAMs and pseudo labels.** (to be released)
+**Step 2: Generate CB-CAMs and pseudo labels.** 
+
+(to be released)
 
 
 
