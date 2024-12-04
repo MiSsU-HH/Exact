@@ -3,8 +3,8 @@
 PASTIS24_cls:
     basedir: ".../PASTIS"
     paths_train: ".../PASTIS/fold-paths/folds_1_123_paths.csv"
-    paths_eval: ".../PASTIS/fold-paths/fold_5_paths.csv"
-    paths_test: ".../PASTIS/fold-paths/fold_4_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_4_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_5_paths.csv"
 
 PASTIS24_fold1:
     basedir: ".../PASTIS"
