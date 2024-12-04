@@ -32,6 +32,7 @@ pip install -r requirements.txt
 <summary>
 PASTIS dataset
 </summary>
+
 The original PASTIS dataset is accessible [here](https://github.com/VSainteuf/pastis-benchmark). We follow the [TSViT](https://github.com/michaeltrs/DeepSatModels/blob/main/README_TSVIT.md) to divide each sample into 24x24 patches by running the script:
 
 ```bash
