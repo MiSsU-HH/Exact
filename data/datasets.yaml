@@ -1,0 +1,38 @@
+
+# PASTIS24 benchmark -------------------------------------------------------------------------------------------------
+PASTIS24_cls:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_1_123_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_5_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_4_paths.csv"
+
+PASTIS24_fold1:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_1_123_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_5_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_4_paths.csv"
+
+PASTIS24_fold2:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_2_234_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_5_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_1_paths.csv"
+
+PASTIS24_fold3:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_3_345_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_1_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_2_paths.csv"
+
+PASTIS24_fold4:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_4_451_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_2_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_3_paths.csv"
+
+PASTIS24_fold5:
+    basedir: ".../PASTIS"
+    paths_train: ".../PASTIS/fold-paths/folds_5_512_paths.csv"
+    paths_eval: ".../PASTIS/fold-paths/fold_3_paths.csv"
+    paths_test: ".../PASTIS/fold-paths/fold_4_paths.csv"
+# ------------------------------------------------------------------------------------------------------------------
