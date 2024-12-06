@@ -110,10 +110,10 @@ Results of pseudo labels.
 
 Results of segmentation network (*TSViT* segmentation model trained with different pseudo labels).
 
-| Method       | OA   | mIoU | ckpts   |
-| ------------ | ---- | :--: | ------- |
-| baseline     | 77.2 | 57.8 | --      |
-| ours-*Exact* | 80.2 | 62.0 | [pth]() |
+| Method       | OA   | mIoU |
+| ------------ | ---- | :--: |
+| baseline     | 77.2 | 57.8 |
+| ours-*Exact* | 80.2 | 62.0 |
 
 
 
