@@ -1,4 +1,4 @@
-# [Under Review] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation [![arXiv](https://img.shields.io/badge/arXiv-2411.02506-b31b1b.svg)](http://arxiv.org/abs/2402.18467)
+# [Under Review] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation [![arXiv](https://img.shields.io/badge/arXiv-2412.03968-b31b1b.svg)](https://arxiv.org/pdf/2412.03968)
 
 This repository contains the source code of "*Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation".
 
@@ -10,7 +10,7 @@ This repository contains the source code of "*Exact*: Exploring Space-Time Perce
 
 ## :white_check_mark:Updates
 
-* **`Dec. 4th, 2024`**:  Exact paper is released at [arXiv](). 
+* **`Dec. 6th, 2024`**:  Exact paper is released at [arXiv]([arxiv.org/pdf/2412.03968](https://arxiv.org/pdf/2412.03968)). 
 * **...**
 
 
@@ -103,10 +103,10 @@ python tools/train_seg.py --config configs/PASTIS24/TSViT_fold1.yaml
 
 Results of pseudo labels.
 
-| Method       | OA   | mIoU | Pseudo labels |
-| ------------ | ---- | :--: | ------------- |
-| baseline     | 81.2 | 69.5 | --            |
-| ours-*Exact* | 84.1 | 75.6 | [labels]()    |
+| Method       | OA   | mIoU | Pseudo labels                                                |
+| ------------ | ---- | :--: | ------------------------------------------------------------ |
+| baseline     | 81.2 | 69.5 | --                                                           |
+| ours-*Exact* | 84.1 | 75.6 | [labels](https://drive.google.com/file/d/1RZmE0Oby5PMWdFqFFz2XvOz9UMPmvGbC/view?usp=drive_link) |
 
 Results of segmentation network (*TSViT* segmentation model trained with different pseudo labels).
 
@@ -127,7 +127,7 @@ Please cite our work if you find it helpful to your research.
       title={Exact: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation}, 
       author={Hao Zhu and Yan Zhu and Jiayu Xiao and Tianxiang Xiao and Yike Ma and Yucheng Zhang and Feng Dai},
       year={2024},
-      eprint={2411.02506},
+      eprint={2412.03968},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
