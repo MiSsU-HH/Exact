@@ -103,10 +103,10 @@ python tools/train_seg.py --config configs/PASTIS24/TSViT_fold1.yaml
 
 Results of pseudo labels.
 
-| Method       | OA   | mIoU | Pseudo labels                                                |
-| ------------ | ---- | :--: | ------------------------------------------------------------ |
-| baseline     | 81.2 | 69.5 | --                                                           |
-| ours-*Exact* | 84.1 | 75.6 | [labels](https://drive.google.com/file/d/1RZmE0Oby5PMWdFqFFz2XvOz9UMPmvGbC/view?usp=drive_link) |
+| Method       | OA   | mIoU |
+| ------------ | ---- | :--: |
+| baseline     | 81.2 | 69.5 |
+| ours-*Exact* | 84.1 | 75.6 |
 
 Results of segmentation network (*TSViT* segmentation model trained with different pseudo labels).
 
