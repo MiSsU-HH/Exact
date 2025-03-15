@@ -1,4 +1,4 @@
-# [Under Review] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation [![arXiv](https://img.shields.io/badge/arXiv-2412.03968-b31b1b.svg)](https://arxiv.org/pdf/2412.03968)
+# [CVPR 2025] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation [![arXiv](https://img.shields.io/badge/arXiv-2412.03968-b31b1b.svg)](https://arxiv.org/pdf/2412.03968)
 
 This repository contains the source code of "*Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation".
 
@@ -10,8 +10,9 @@ This repository contains the source code of "*Exact*: Exploring Space-Time Perce
 
 ## :white_check_mark:Updates
 
+* **`Mar. 15th, 2025`**:  The remaining code is being organized and will be available soon. 
+* **`Feb. 27th, 2025`**:  Our work is accepted by *CVPR 2025* ✨. 
 * **`Dec. 6th, 2024`**:  Exact paper is released at [arXiv]([arxiv.org/pdf/2412.03968](https://arxiv.org/pdf/2412.03968)). 
-* **...**
 
 
 
@@ -96,24 +97,6 @@ python tools/train_seg.py --config configs/PASTIS24/TSViT_fold1.yaml
 ```
 
 
-
-## Main Results
-
-### PASTIS Benchmark
-
-Results of pseudo labels.
-
-| Method       | OA   | mIoU |
-| ------------ | ---- | :--: |
-| baseline     | 81.2 | 69.5 |
-| ours-*Exact* | 84.1 | 75.6 |
-
-Results of segmentation network (*TSViT* segmentation model trained with different pseudo labels).
-
-| Method       | OA   | mIoU |
-| ------------ | ---- | :--: |
-| baseline     | 77.2 | 57.8 |
-| ours-*Exact* | 80.2 | 62.0 |
 
 
 
