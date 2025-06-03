@@ -1,5 +1,5 @@
 #!/bin/bash
-# bash run.sh /data/zhuyan/exp_log/test7 xxx/PASTIS24
+# bash run.sh xxx/ xxx/PASTIS24
 # Configuration variables
 export CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7"
 workspace=$1
