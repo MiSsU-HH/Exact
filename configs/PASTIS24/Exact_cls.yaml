@@ -1,0 +1,65 @@
+MODEL:
+  architecture:  "Exact_cls"
+  img_res: 24
+  max_seq_len: 60  
+  num_channels: 11
+  num_features: 16
+  num_classes: 18
+  ignore_background: True
+  dropout: 0.
+  patch_size: 2
+  dim: 128
+  temporal_depth: 8
+  spatial_depth: 4
+  heads: 4
+  pool: 'cls'
+  dim_head: 64
+  emb_dropout: 0.
+  scale_dim: 4
+
+DATASETS:
+  dataset_path:
+  train:
+    dataset: 'PASTIS24_cls'
+    label_map:
+    max_seq_len: 60
+    batch_size: 48
+    extra_data:
+    num_workers: 4
+    return_paths: True
+    pseudo_path: False
+
+  eval:
+    dataset: 'PASTIS24_cls'
+    label_map:
+    max_seq_len: 60
+    batch_size: 64
+    extra_data:
+    num_workers: 4
+    return_paths: True
+    pseudo_path: False
+
+SOLVER:
+  num_epochs: 20
+  num_warmup_epochs: 3
+  steps: (0, 80000)
+  loss_function: focal_loss
+  class_weights:
+  lr_scheduler: 'cosine'
+  lr_base: 1e-3
+  lr_min: 5e-6
+  lr_start: 5e-6
+  num_cycles: 1
+  reset_lr: True   
+  weight_decay: 0.00
+  gamma: 1.0
+  alpha:
+
+CHECKPOINT:
+  save_path:  
+  save_cams_path: 
+  partial_restore: False
+  train_metrics_steps: 100
+  eval_steps: 1000
+  save_steps: 1000000
+
