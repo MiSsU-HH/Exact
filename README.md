@@ -1,6 +1,6 @@
-# [CVPR 2025 Highlight ✨] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation [![arXiv](https://img.shields.io/badge/arXiv-2412.03968-b31b1b.svg)](https://arxiv.org/pdf/2412.03968)
+# [CVPR 2025 Highlight ✨] *Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation 
 
-This repository contains the source code of "*Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation".
+This repository contains the source code of [*Exact*: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation.](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Exact_Exploring_Space-Time_Perceptive_Clues_for_Weakly_Supervised_Satellite_Image_CVPR_2025_paper.pdf)
 
 <br>
   <img width="100%" alt="AFA flowchart" src="./docs/exact.png">
@@ -87,13 +87,12 @@ bash run.sh $workspace $dataset_path
 Please cite our work if you find it helpful to your research.
 
 ```bibtex
-@misc{zhu2025exact,
-      title={Exact: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation}, 
-      author={Hao Zhu and Yan Zhu and Jiayu Xiao and Tianxiang Xiao and Yike Ma and Yucheng Zhang and Feng Dai},
-      year={2024},
-      eprint={2412.03968},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zhu2025exact,
+  title={Exact: Exploring space-time perceptive clues for weakly supervised satellite image time series semantic segmentation},
+  author={Zhu, Hao and Zhu, Yan and Xiao, Jiayu and Xiao, Tianxiang and Ma, Yike and Zhang, Yucheng and Dai, Feng},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={14036--14045},
+  year={2025}
 }
 ```
 
